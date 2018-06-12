@@ -1,4 +1,4 @@
-<img width="100" src="https://raw.githubusercontent.com/docnow/hydrator/master/app/images/app.png"
+<img width="800" src="https://raw.githubusercontent.com/docnow/hydrator/master/app/images/screencap.png"
 /> 
 
 Hydrator is an [Electron] based desktop application for [hydrating] Twitter ID
@@ -12,7 +12,16 @@ If you are interested in learning more please join the DocNow community in
 
 ## Prebuilt Versions
 
-v0.0.2 
+### v0.0.3 
+
+This release adds extended tweet functionality.
+
+* [OS X](https://s3.amazonaws.com/docnow-web/Hydrator-0.0.3.dmg)
+* [Windows](https://s3.amazonaws.com/docnow-web/Hydrator-Setup-0.0.3.exe)
+* [Linux](https://s3.amazonaws.com/docnow-web/Hydrator_0.0.3_amd64.deb)
+
+
+### v0.0.2 
 
 * [OS X](https://s3.amazonaws.com/docnow-web/Hydrator-0.0.2.dmg)
 * [Windows](https://s3.amazonaws.com/docnow-web/Hydrator-Setup-0.0.2.exe)
