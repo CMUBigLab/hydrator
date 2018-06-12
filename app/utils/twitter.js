@@ -69,7 +69,7 @@ function fetchTweets(tweetIds, auth) {
   var ids = tweetIds.join(',')
   return new Promise(
     function(resolve, reject) {
-      twitter.post('/statuses/lookup', {id: ids})
+      twitter.post('/statuses/lookup', {id: ids, include_ext_alt_text: true})
         .then(function(response) {
           var headers = response.resp.headers
           if (headers['x-rate-limit-remaining'] < 1) {
